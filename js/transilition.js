@@ -1,0 +1,52 @@
+const translation = {
+  en: {
+    color: "colors:",
+    languge: "Select Languge:",
+    spical: "spical Disign",
+    english: "English",
+    arabic: "Arabic",
+    about: "About Us",
+    Skills: "Skills",
+    gallery: "gallery",
+    Timeline: "Timeline",
+    features: "features",
+    Testimoials: "Testimoials",
+    contact: "contact Us",
+    we: " we are ",
+    creativ: "creativ",
+    agency: "Agency",
+    Lorem:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem ab delectus. Aliquid, eos! Placeat, veniam. Fugit adipisci accusantium vel.",
+    chose: "Random background:",
+    no: "No",
+    Yes: "Yes",
+    Lorem:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio  repellat quis adipisci obcaecati consequatur fugiat maxime. Vel voluptatibus quod, itaque natus optio quis odio, ex laborum et,  libero inventore at!",
+  },
+  ar: {
+    color: "الثيمات:",
+    languge: "اختار اللغه:",
+    spical: "موقع متميز",
+    english: "انجليزي",
+    arabic: "عربي",
+    about: "من نحن",
+    Skills: "المهارات",
+    gallery: "معرض الاعمال",
+    Timeline: "مراحل الانجازات ",
+    features: "المزايا و الخصائص ",
+    Testimoials: "تجارب المستخدمين ",
+    contact: " تواصل معنا ",
+    we: " نحن شركة ",
+    creativ: "تصميم",
+    agency: "مواقع",
+    Lorem:
+      " تكر حلول رقمية تساعد الشركات على الظهور بشكل احترافي وجذاب في العالم الرقمي. نعمل على تحويل أفكارك إلى تجربة مستخدم سلسة، سريعة، ومتوافقة مع جميع الأجهزة.",
+    chose: " خلفيات متعدده ",
+    no: "لا",
+    Yes: "نعم",
+    about: "من نحن ",
+    Lorem:
+      " تكر حلول رقمية تساعد الشركات على الظهور بشكل احترافي وجذاب في العالم الرقمي. نعمل على تحويل أفكارك إلى تجربة مستخدم سلسة، سريعة، ومتوافقة مع جميع الأجهزة.",
+  },
+};
+export default translation;
