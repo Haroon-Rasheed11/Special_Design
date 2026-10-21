@@ -345,15 +345,6 @@ bullets.forEach((b) => {
         behavior: "smooth",
       });
     });
-
-    // اظهار التولتيب الخاص بالعنصر اللي انضغط
-    //   let currentTooltip = b.querySelector(".tooltip");
-    //   currentTooltip.style.display = "block";
-    //   currentTooltip.classList.add("activ-buletts");
-    //   setTimeout(() => {
-    //     currentTooltip.style.display = "none";
-    //     currentTooltip.style.transition = "0.3s";
-    //   }, 1000);
   });
 });
 
