@@ -32,7 +32,6 @@ const translation = {
       " Studied Information Systems and Computer Technology at Queen Arwa University, learning computer fundamentals, web design basics, AI introduction, and software engineering. Developed strong logical thinking through academic projects and practical coursework. Built a solid technical foundation that prepared me for modern web development.",
     detail_h:
       "Learned how to structure web pages using HTML with proper semantic elements. Enhanced my styling skills with CSS, mastering responsive layouts using Flexbox and Grid. Built clean, professional interfaces with modern design practices.",
-    Java: "JavaScript (ES6)",
     detail_j:
       "Learned modern JavaScript concepts, DOM manipulation, events, functions, objects, and arrays. Built small projects that strengthened logical thinking and interactive web behavior.",
     Tailwind: "Tailwind CSS",
@@ -55,8 +54,7 @@ const translation = {
     Inter: "Simple, clear, and easy-to-use interface.",
     Modern: "Modern UI/UX",
     modr: "Modern, visually appealing design with a smooth and intuitive user experience.",
-    // Testimoials: "Testimoials",
-    // one: "I'm Very happy with the prodact it's imaizing and i recieve it very fast and the price was amaizing.",
+    one: "I'm Very happy with the prodact it's imaizing and i recieve it very fast and the price was amaizing.",
   },
   ar: {
     color: "الثيمات:",
@@ -94,7 +92,6 @@ const translation = {
       " درست في جامعة الملكة أروى تخصص نظم معلومات وتقنية الحاسوب، وتعلمت أساسيات الحاسوب ومقدمة في تصميم المواقع والذكاء الاصطناعي وهندسة البرمجيات. طوّرت مهاراتي المنطقية من خلال المشاريع الأكاديمية والتطبيقات العملية.بنيت أساسًا تقنيًا قويًا ساعدني في دخول مجال تطوير الويب.",
     detail_h:
       "تعلّمت بناء صفحات الويب باستخدام HTML وهيكلة المحتوى بشكل صحيح. وطوّرت مهاراتي في CSS عبر تصميم واجهات متجاوبة باستخدام Flexbox وGrid. نفّذت صفحات احترافية تجمع بين الهيكلة القوية والتنسيق الحديث.",
-    Java: "جافا سكريبت (ES6)",
     detail_j:
       "تعلمت أساسيات البرمجة الحديثة، التعامل مع الـ DOM، الأحداث، الدوال، الكائنات، والمصفوفات. بنيت مشاريع صغيرة عززت فهمي للمنطق البرمجي وطريقة عمل التفاعلات داخل المواقع.",
     Tailwind: "Tailwind CSS",
@@ -116,8 +113,7 @@ const translation = {
     Inter: "واجهة بسيطة، واضحة، وسهلة الاستخدام.",
     Modern: "تصميم حديث وتجربة مستخدم عصرية",
     modr: "تصميم حديث وجذاب مع تجربة مستخدم سلسة وبديهية.",
-    // Testimoials: "تجارب المستخدمين",
-    // one: "أنا سعيد جدًا بالمنتج، رائع جدًا واستلمته بسرعة، وكان السعر ممتاز.",
+    one: "أنا سعيد جدًا بالمنتج، رائع جدًا واستلمته بسرعة، وكان السعر ممتاز.",
   },
 };
 export default translation;

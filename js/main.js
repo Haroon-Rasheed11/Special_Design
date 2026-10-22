@@ -85,6 +85,7 @@ if (backgroundLocal !== null) {
 }
 //funcition randomaiz funcition
 function randomizeImage() {
+  clearInterval(backgroundInterval);
   if (backgroundOpition === true) {
     backgroundInterval = setInterval(() => {
       time();
@@ -201,10 +202,13 @@ document.addEventListener("DOMContentLoaded", () => {
   setlanguge(languge);
 });
 const setlanguge = (languge) => {
+  const lang = translation[languge] ? languge : "en";
   const elements = document.querySelectorAll("[data-i18n]");
   elements.forEach((element) => {
     const translitionKey = element.getAttribute("data-i18n");
-    element.textContent = translation[languge][translitionKey];
+    if (translation[lang][translitionKey] !== undefined) {
+      element.textContent = translation[languge][translitionKey];
+    }
   });
   document.dir = languge === "ar" ? "rtl" : "ltr";
   if (languge === "ar") {
@@ -349,6 +353,9 @@ bullets.forEach((b) => {
 });
 
 // select all links
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 500) backToTop.classList.add("show");
+});
 
 const allLinks = document.querySelectorAll(".link a");
 allLinks.forEach((link) => {
